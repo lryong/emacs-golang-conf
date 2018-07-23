@@ -1,0 +1,68 @@
+((("solarized" .
+   [0 0 0 0 0 1 0 0 0])
+  ("enable-theme" .
+   [0 0 0 0 0 0 0 0 0 0 1 0])
+  ("dark" .
+   [1 0 0 0])
+  ("background-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("set-terminal-parameter" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("nil" .
+   [2 0 0])
+  ("set-frame-parameter" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("require" .
+   [0 0 0 0 0 0 1])
+  ("load-path" .
+   [0 0 0 0 0 0 0 1 0])
+  ("add-to-list" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("fmt" .
+   [6 0 0])
+  ("setq" .
+   [3 0 0 0])
+  ("ac-ignore" .
+   [0 0 0 0 0 0 0 0 1])
+  ("ac-ignore-case" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("ac-use" .
+   [0 0 0 0 0 1])
+  ("ac-use-menu-map" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("define-key" .
+   [0 0 0 0 0 0 0 0 0 2])
+  ("ac-menu-map" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("ac-next" .
+   [0 0 0 0 0 1 0])
+  ("ac-menu" .
+   [0 0 0 0 0 0 1])
+  ("ac-previous" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("add-hook" .
+   [0 0 0 0 0 0 0 1])
+  ("go-mode-hook" .
+   [0 0 0 0 0 0 0 0 0 0 0 1])
+  ("lambda" .
+   [0 0 0 0 0 1])
+  ("ac-sources" .
+   [0 0 0 0 0 0 0 0 0 3])
+  ("ac-source-ghc-mod" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("ac-source-abbrev" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("a" .
+   [1])
+  ("Println" .
+   [0 0 0 1 1 0 0])
+  ("os" .
+   [1 0])
+  ("whoami" .
+   [0 0 0 1 0 0])
+  ("Sprintf" .
+   [0 0 1 0 1 0 0])
+  ("defun-prompt-regexp" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("global-linum-mode" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])))
