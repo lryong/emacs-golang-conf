@@ -18,8 +18,8 @@
 
    ```shell
     git clone https://github.com/lryong/emacs_conf 
-    cp -rf emacs_golang_conf/emacs.d ~/.emacs.d
-    cp emacs_golang_conf/emacs ~/.emacs
+    cp -rf emacs_conf/emacs.d ~/.emacs.d
+    cp emacs_conf/emacs ~/.emacs
 
    ```
    
