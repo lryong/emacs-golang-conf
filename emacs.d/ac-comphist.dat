@@ -1,68 +1,190 @@
-((("solarized" .
-   [0 0 0 0 0 1 0 0 0])
-  ("enable-theme" .
-   [0 0 0 0 0 0 0 0 0 0 1 0])
-  ("dark" .
-   [1 0 0 0])
-  ("background-mode" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
-  ("set-terminal-parameter" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("nil" .
-   [2 0 0])
-  ("set-frame-parameter" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("require" .
-   [0 0 0 0 0 0 1])
-  ("load-path" .
-   [0 0 0 0 0 0 0 1 0])
-  ("add-to-list" .
-   [0 0 0 0 0 0 0 0 0 0 1])
-  ("fmt" .
-   [6 0 0])
-  ("setq" .
-   [3 0 0 0])
-  ("ac-ignore" .
-   [0 0 0 0 0 0 0 0 1])
-  ("ac-ignore-case" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("ac-use" .
-   [0 0 0 0 0 1])
-  ("ac-use-menu-map" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("define-key" .
-   [0 0 0 0 0 0 0 0 0 2])
-  ("ac-menu-map" .
-   [0 0 0 0 0 0 0 0 0 0 1])
-  ("ac-next" .
-   [0 0 0 0 0 1 0])
-  ("ac-menu" .
-   [0 0 0 0 0 0 1])
-  ("ac-previous" .
-   [0 0 0 0 0 0 0 0 0 0 1])
-  ("add-hook" .
-   [0 0 0 0 0 0 0 1])
-  ("go-mode-hook" .
-   [0 0 0 0 0 0 0 0 0 0 0 1])
-  ("lambda" .
-   [0 0 0 0 0 1])
-  ("ac-sources" .
-   [0 0 0 0 0 0 0 0 0 3])
-  ("ac-source-ghc-mod" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("ac-source-abbrev" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("a" .
-   [1])
-  ("Println" .
-   [0 0 0 1 1 0 0])
-  ("os" .
+((("replaceSpace" .
+   [0 0 0 0 1 0 0 0 0 0 0 0])
+  ("repr" .
+   [0 0 0 1])
+  ("pallet-install" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("pallet-init" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("pallet-mode" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("user-emacs-directory" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("or" .
    [1 0])
-  ("whoami" .
+  ("expand-file-name" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("org-babel-load-file" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("ob-tangle" .
+   [0 0 0 0 1 0 0 0 0])
+  ("org-install" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("kbd" .
+   [1 0 0])
+  ("dired-x" .
+   [0 0 0 0 1 0 0])
+  ("dired-aux" .
+   [0 0 0 0 1 0 0 0 0])
+  ("size" .
+   [1 0 0 0])
+  ("sizeof" .
+   [0 0 0 0 0 1])
+  ("vector" .
+   [1 0 0 0 0 0])
+  ("False" .
+   [0 0 0 1 0])
+  ("tarfile" .
+   [0 0 0 2 0 0 0])
+  ("targe" .
+   [1 0 0 0 0])
+  ("True" .
+   [0 0 0 1])
+  ("cols" .
+   [7 0 0 0])
+  ("rows" .
+   [5 0 0 2])
+  ("array" .
+   [0 0 0 7 12])
+  ("target" .
+   [2 0 0 1 1 7])
+  ("select" .
    [0 0 0 1 0 0])
-  ("Sprintf" .
-   [0 0 1 0 1 0 0])
+  ("Find" .
+   [3 0 0 0])
+  ("solution" .
+   [0 0 0 0 0 0 0 2])
+  ("class" .
+   [0 0 0 0 5])
+  ("global-linum-mode" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
   ("defun-prompt-regexp" .
    [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("global-linum-mode" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])))
+  ("Sprintf" .
+   [0 0 1 0 1 0 0])
+  ("whoami" .
+   [0 0 0 1 0 0])
+  ("os" .
+   [1 0])
+  ("Println" .
+   [0 0 0 1 1 0 0])
+  ("a" .
+   [1])
+  ("ac-source-abbrev" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("ac-source-ghc-mod" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("ac-sources" .
+   [0 0 0 0 0 0 0 0 0 3])
+  ("lambda" .
+   [0 0 0 0 0 1])
+  ("go-mode-hook" .
+   [0 0 0 0 0 0 0 0 0 0 0 1])
+  ("add-hook" .
+   [0 0 0 0 0 0 1 1])
+  ("ac-previous" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("ac-menu" .
+   [0 0 0 0 0 0 1])
+  ("ac-next" .
+   [0 0 0 0 0 1 0])
+  ("ac-menu-map" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("define-key" .
+   [0 0 0 0 0 1 0 0 0 2])
+  ("ac-use-menu-map" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("ac-use" .
+   [0 0 0 0 0 1])
+  ("ac-ignore-case" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("ac-ignore" .
+   [0 0 0 0 0 0 0 0 1])
+  ("setq" .
+   [4 0 0 0])
+  ("fmt" .
+   [6 0 0])
+  ("add-to-list" .
+   [0 0 0 0 0 0 1 0 0 0 1])
+  ("load-path" .
+   [0 0 0 0 0 0 0 1 0])
+  ("require" .
+   [0 0 0 1 4 0 2])
+  ("set-frame-parameter" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("nil" .
+   [4 0 0])
+  ("set-terminal-parameter" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("background-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("dark" .
+   [1 0 0 0])
+  ("enable-theme" .
+   [0 0 0 0 0 0 0 0 0 0 1 0])
+  ("solarized" .
+   [0 0 0 0 0 1 0 0 0])
+  ("elpy" .
+   [1 0 0 0])
+  ("Python" .
+   [1 0 0 0 0 0])
+  ("development" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("environment" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("elpy-enable" .
+   [0 0 0 0 0 0 0 1 0 0 0])
+  ("package" .
+   [0 0 0 0 0 0 1])
+  ("package-archives" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("python-mode-hook" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("Solution" .
+   [2 0 0 0 2 1 0 0])
+  ("ArithmeticError" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("while" .
+   [0 0 0 2 1])
+  ("sh" .
+   [1 0])
+  ("make-backup-files" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("cl-loop" .
+   [0 0 0 0 0 0 2])
+  ("for" .
+   [3 0 0])
+  ("in" .
+   [1 0])
+  ("buffer-list" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("buffer-file-name" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  (">=" .
+   [1 0])
+  ("return" .
+   [1 0 0 0 0 0])
+  ("list" .
+   [1 0 0 0])
+  ("put" .
+   [1 0 0])
+  ("dired-find-alternate-file" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("with-eval-after-load" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("dired" .
+   [1 0 0 0 0])
+  ("dired-mode-map" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("dired-find-file" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("pallet" .
+   [0 0 0 0 1 0])
+  ("python" .
+   [2 0 0 0 0 0])
+  ("coding" .
+   [2 0 0 0 0 0])
+  ("listNode" .
+   [2 0 0 0 0 2 2 0])
+  ("next" .
+   [0 0 0 1])))
